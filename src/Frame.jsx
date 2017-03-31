@@ -29,7 +29,7 @@ export default class Frame extends Component {
   static propTypes = {
     style: PropTypes.object, // eslint-disable-line
     head: PropTypes.node,
-	frameContentClassName: PropTypes.string,
+    frameContentClassName: PropTypes.string,
     initialContent: PropTypes.string,
     mountTarget: PropTypes.string,
     contentDidMount: PropTypes.func,
@@ -43,7 +43,7 @@ export default class Frame extends Component {
   static defaultProps = {
     style: {},
     head: null,
-	frameContentClassName: 'frame-content',
+    frameContentClassName: 'frame-content',
     children: undefined,
     mountTarget: undefined,
     contentDidMount: () => {},
