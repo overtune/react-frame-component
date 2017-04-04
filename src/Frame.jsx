@@ -134,6 +134,7 @@ export default class Frame extends Component {
       children: undefined // The iframe isn't ready so we drop children from props here. #12, #17
     };
     delete props.head;
+	delete props.frameContentClassName;
     delete props.initialContent;
     delete props.mountTarget;
     delete props.contentDidMount;
